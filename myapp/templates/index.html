@@ -1,12 +1,26 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body{
+            background-color: bisque;
+
+        }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellendus qui mollitia nulla? Possimus est quo commodi, laboriosam soluta laudantium aspernatur totam obcaecati maxime nihil eos saepe exercitationem facere nam.</p>
+    <form action="">
+        <h1 style="color:palevioletred; text-align:center;">LOGIN FORM</h1>
+        USERNAME:
+        <input type="text"><br>
+        PASSWORD:
+        <input type="text"><br>
+    </form>
 </body>
 </html>
