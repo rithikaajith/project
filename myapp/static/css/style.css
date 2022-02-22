@@ -1,3 +1,11 @@
 h1{
-    border: 2px solid red;
+    border: 2px solid black;
+}
+.div1 {
+    color: aquamarine;
+    background-color: burlywood;
+
+}
+.row{
+    margin-top: 500px;
 }
